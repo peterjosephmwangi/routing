@@ -29,6 +29,7 @@ const Comments = () => {
     }
   return (
     <div className="container">
+        {/* map content  */}
         {comments?.map((comment,key)=>(
             <div className="card">
                 <h2>{comment.name}</h2>
