@@ -11,3 +11,141 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+
+  background-color: #333;
+ 
+  padding: 10px 20px;
+ 
+ }
+ 
+ 
+ 
+ .navbar-nav {
+ 
+  list-style-type: none;
+ 
+  padding: 0;
+ 
+  margin: 0;
+ 
+  display: flex;
+ 
+ }
+ 
+ 
+ 
+ .nav-item {
+ 
+  margin-right: 10px;
+ 
+ }
+ 
+ 
+ 
+ .nav-link {
+ 
+  text-decoration: none;
+ 
+  color: #fff;
+ 
+  padding: 8px 12px;
+ 
+  border-radius: 4px;
+ 
+ }
+ 
+ 
+ 
+ .nav-link:hover {
+ 
+  background-color: #555;
+ 
+ }
+ 
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  }
+  
+  .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+  }
+  
+  .card h2 {
+  margin: 0 0 8px;
+  }
+  
+  .card p {
+  margin: 4px 0;
+  }
+  
+  .card a {
+  color: #1e90ff;
+  text-decoration: none;
+  }
+  
+  .card button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  .card button:hover {
+  background-color: #ff3333;
+  }
+  
+
+/*======================
+    404 page
+=======================*/
+
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+			 font-size:80px;
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
+
+  
